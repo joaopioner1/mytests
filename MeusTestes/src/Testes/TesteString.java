@@ -13,12 +13,6 @@ public class TesteString {
 		String soma = oi + tchau;
 		System.out.println(soma);
 		
-		String palavra = oi
-			
-		String frase = ola, oi
-			
-			if (frase.equals("oi")) {
-				System.out.println("true");	
 			}
 		
 		
