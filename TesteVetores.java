@@ -21,7 +21,12 @@ public class TesteVetores {
 		System.out.println(); //pula a linha
 		
 		for (int i = 0; i < numAlunos; ++i) {
-			System.out.println("Nota do Aluno " + nomeAlunos[i]+ ": " + notaAlunos[i]);
+			System.out.println("Nota do Aluno(a) " + nomeAlunos[i] + ": " + notaAlunos[i]);
+			if (notaAlunos[i] >= 60 ) {
+				System.out.println("O aluno(a) " + nomeAlunos[i] + " esta acima da media.");
+			} else {
+				System.out.println("O aluno(a) " + nomeAlunos[i] + " esta abaixo da media.");
+			}
 		}
 		in.close();
 	}
